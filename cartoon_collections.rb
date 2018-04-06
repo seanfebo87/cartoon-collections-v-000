@@ -23,4 +23,5 @@ def find_the_cheese(array)
     cheese_type.include?(word)
     return word
   end
+  end
 end
