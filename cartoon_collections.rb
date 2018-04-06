@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(arr)
    arr.map do |call|
      binding.pry
-    if call.length > 4
+    if call.any? > 4
       return true
     else
       return false 
