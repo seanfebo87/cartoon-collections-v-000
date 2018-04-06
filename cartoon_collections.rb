@@ -1,4 +1,3 @@
-require 'pry'
 def roll_call_dwarves(array)
   array.each_with_index do |name, i|
     puts "#{i + 1}. #{name}"
@@ -14,7 +13,6 @@ end
 
 def long_planeteer_calls(arr)
    arr.map do |call|
-     binding.pry
     if call.any? > 4
       return true
     else
